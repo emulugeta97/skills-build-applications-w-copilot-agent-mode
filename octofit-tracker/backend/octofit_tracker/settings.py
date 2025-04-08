@@ -25,7 +25,8 @@ SECRET_KEY = ')1#waygszv4r@te6700%x^yglja_@m(b^wc-c-_#f9antry%ir'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = ['improved-dollop-5g4vjwgq4q5cvw5r-8000.app.github.dev', 'localhost', '127.0.0.1']
 
 
 # Application definition
